@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lexend+Deca|Big+Shoulders+Display"
+    />
+    <title>3 Column Card Flex</title>
+    <style>
+      body {
+        background-color: hsla(0, 0%, 100%, 0.75);
+      }
+      .flex {
+        width: 75%;
+        display: flex;
+        margin: auto;
+        margin-top: 100px;
+        height: auto;
+        border-radius: 10px;
+      }
+      .box {
+        flex: 1;
+        padding: 40px;
+        color: hsl(0, 0%, 100%);
+      }
+      .box img{
+          height: 1.7rem;
+      }
+      .box h3{
+          font-family: "Big Shoulders Display", serif;
+          font-weight: 700;
+          margin-top: 30px;
+      }
+      .box p{
+          font-family: "Lexend Deca", serif;
+          font-weight: 400;
+          margin-top: 30px;
+          font-size: 1rem;
+      }
+      .box a {
+        border: 2px solid hsl(0, 0%, 100%);
+        display: block;
+        text-decoration: none;
+        background-color: hsl(0, 0%, 100%);
+        width: 60%;
+        height: auto;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        font-family: "Lexend Deca", serif;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 60px;
+        transition: 0.5s;
+      }
+      .box a:hover {
+        background-color: transparent;
+        color: hsl(0, 0%, 100%);
+      }
+      .orange {
+        border-radius: 10px 0px 0px 10px;
+        background-color: hsl(30, 77%, 52%);
+      }
+      .orange a {
+        color: hsl(30, 77%, 52%);
+      }
+      .blue {
+        background-color: hsl(185, 98%, 23%);
+      }
+      .blue a {
+        color: hsl(185, 98%, 23%);
+      }
+      .teal {
+        border-radius: 0px 10px 10px 0px;
+        background-color: hsl(179, 100%, 13%);
+      }
+      .teal a {
+        color: hsl(179, 100%, 13%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="flex">
+      <section class="box orange">
+        <img src="./image/icon-sedans.svg" alt="sedans" />
+        <h3>SEDANS</h3>
+        <p>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <a href="#">Learn More</a>
+      </section>
+      <section class="box blue">
+        <img src="./image/icon-suvs.svg" alt="suvs" />
+        <h3>SUVS</h3>
+        <p>
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <a href="#">Learn More</a>
+      </section>
+      <section class="box teal">
+        <img src="./image/icon-luxury.svg" alt="luxury" />
+        <h3>LUXURY</h3>
+        <p>
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <a href="#">Learn More</a>
+      </section>
+    </main>
+  </body>
+</html>
