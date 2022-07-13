@@ -5,4 +5,4 @@ The site is hosted at:
 
 https://fseyitan.github.io/3-column-page/
 
-The webpage is not optimised for mobile view, best experience on mobile, rotate your screen
+The webpage is not optimised for mobile view. For best experience on mobile, rotate your screen!!!!
